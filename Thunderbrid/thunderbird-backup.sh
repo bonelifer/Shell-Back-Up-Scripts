@@ -15,6 +15,7 @@ THUNDERBIRD_PROFILE_PATH=/home/panda/.thunderbird/panda.default-release/
 LOCK_FILE_PATH=/home/panda/Documents/Backups/Thunderbird/thunderbird-backup.lock
 IS_THUNDERBIRD_RUNNING=0
 ATTEMPTS_TO_STOP_THUNDERBIRD=5
+BACKUPS_OLDER_THAN=4
 
 # Check if the file already exists
 test -e "$BACKUP_FOLDER_PATH/$BACKUP_FILENAME.tar.gz" &&
